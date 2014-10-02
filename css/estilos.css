@@ -1,0 +1,23 @@
+html{
+	background-color: #33cc99;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+a.grande{
+  font-size: 30px;
+  text-decoration: none;
+
+}
+a.grande:hover{
+   color: #ccc;
+}
+
+a.mediano{
+	font-size: 25px;
+}
+a.peque{
+	font-size: 15px;
+}
+
+
+/*ColourLovers.com es la pagina donde encontraran colores*/
