@@ -1,22 +1,61 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/estilos.css" typo ="text/css">
+		<link rel="stylesheet" href="css/bootstrap.css" typo ="text/css">
 		
 	</head>
 	<body>
+
+	<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Menu
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
+
 	<h1>Hola mundo	</h1>
 	<h3>Subtitulo</h3>
 	<!-- Aqui estan los botones  -->
-	<a class="grande" href="http://www.google.com/">Vinculo Grande</a>
+	<a class="grande" id="big" href="http://www.google.com/">Vinculo Grande</a>
 	<a class="mediano" href="http://www.google.com/">Vinculo Mediano</a>
 	<a class="peque" href="http://www.google.com/">Vinculo Pequeno</a>
-	
-	<br>
-	<input type="text">
 	<br>
 	
-	<button>Prueba</button>
+	<h2>Ciudades</h2>
 	
+	<h4 id="blanco">Ciudades de Bolivia</h4>
+	
+	<ol class="lista1">
+		<li class="ciudad" id="blanco">Cochabamba</li>
+		<li class="ciudad">La Paz</li>
+		<li class="ciudad">Santa Cruz</li>
+		<li class="ciudad">Oruro</li>
+	</ol>
+
+	<ol class="lista2">
+		<li class="ciudad" id="blanco">Cochabamba</li>
+		<li class="ciudad">La Paz</li>
+		<li class="ciudad">Santa Cruz</li>
+		<li class="ciudad">Oruro</li>
+	</ol>
+<input type="text">
+
+<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+
+<button type="button" class="btn btn-primary">Boton lindo</button>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+
 
 	</body>
 

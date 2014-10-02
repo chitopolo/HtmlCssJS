@@ -3,21 +3,57 @@ html{
 	font-family: "Times New Roman", Georgia, Serif;
 }
 
+
 a.grande{
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
 
 }
 a.grande:hover{
-   color: #ccc;
+   color: #7131BC;
 }
 
 a.mediano{
-	font-size: 25px;
+	font-size: 22px;
 }
 a.peque{
 	font-size: 15px;
 }
+
+li.ciudad{
+	font-size: 29px;
+	color: #999;
+}
+
+/*chaining chain - cadena */ 
+
+#blanco{
+	color: white;
+}
+
+ol{
+	background-color: black;
+}
+
+.lista1 > li {
+	color:blue;
+}
+
+.lista2 > li {
+	color:red;
+}
+
+
+button{
+	height: 40px;
+	width: 140px;
+	background-color: blue;
+}
+
+
+
+
+
 
 
 /*ColourLovers.com es la pagina donde encontraran colores*/
